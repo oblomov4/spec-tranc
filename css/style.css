@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Rubik', serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1430px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__index {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  padding-top: 40px;
+  gap: 90px;
+  align-items: center;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 60px;
+}
+
+.nav__ul-a {
+  color: #1d1d1b;
+  font-size: 16px;
+}
