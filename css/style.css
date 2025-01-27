@@ -74,6 +74,48 @@ button {
   flex-grow: 1;
 }
 
+.promo {
+  background-image: url('../images/promo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promo__inner {
+  min-height: 100vh;
+  position: relative;
+}
+
+.promo__content {
+  position: absolute;
+  bottom: 200px;
+}
+
+.promo__title {
+  font-weight: 700;
+  color: #fff;
+  font-size: 60px;
+  max-width: 700px;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  font-size: 20px;
+  max-width: 775px;
+  margin-bottom: 67px;
+  color: #fff;
+}
+
+.btn {
+  background-color: #27ae60;
+  font-weight: 500;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 20px 36px;
+  font-family: 'Rubik', serif;
+}
+
 /* footer */
 .footer {
   background-color: #424141;
