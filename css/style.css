@@ -124,7 +124,7 @@ button {
   font-family: 'Rubik', serif;
 }
 
-/* choice */
+/* chooce */
 .chooce {
   margin-bottom: 80px;
 }
@@ -215,6 +215,37 @@ button {
   height: 32px;
   left: 20px;
 }
+
+/* material */
+.material__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.material__box {
+  position: relative;
+  transition: all 0.3s;
+}
+
+.material__box:hover {
+  transform: translateY(-20px);
+}
+
+.material__box--asphalt {
+  border-radius: 10px;
+}
+
+.material__box-p {
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 40px;
+  position: absolute;
+  max-width: 260px;
+  bottom: 40px;
+  left: 40px;
+}
+
+/* about */
 
 /* footer */
 .footer {
