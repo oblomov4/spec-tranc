@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo">
+              <img src="images/logo.svg" alt="logo" class="logo__img" />
+            </a>
+
+            <nav class="nav">
+              <ul class="nav__ul">
+                <li class="nav__ul-li">
+                  <a href="index.html" class="nav__ul-a">Услуги</a>
+                </li>
+                <li class="nav__ul-li active-link" id="menu-choice">
+                  Материалы
+                  <div class="submenu">
+                    <a class="submenu__link" href="rental-technic.html">Аренда техники</a>
+                  </div>
+                </li>
+                <li class="nav__ul-li">
+                  <a href="index.html#contact" class="nav__ul-a">Доставка и оплата</a>
+                </li>
+                <li class="nav__ul-li">
+                  <a href="index.html#about" class="nav__ul-a">О компании</a>
+                </li>
+                <li class="nav__ul-li">
+                  <a href="index.html#contact" class="nav__ul-a">Контакты</a>
+                </li>
+              </ul>
+
+              <button class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+
+              <div class="burger__menu">
+                <div class="container">
+                  <div class="burger__menu-header">
+                    <img class="burger__menu-img" src="images/logo.svg" alt="logo" />
+                    <img
+                      class="burger__menu-img burger__menu-exit"
+                      src="images/exit.svg"
+                      alt="exit" />
+                  </div>
+                  <ul class="burger__menu-ul">
+                    <li class="burger__menu-li">
+                      <a href="index.html" class="burger__menu-a">Услуги</a>
+                    </li>
+                    <li class="burger__menu-li">
+                      <a href="material.html" class="burger__menu-a">Материалы</a>
+                    </li>
+                    <li class="burger__menu-li">
+                      <a href="#contact" class="burger__menu-a">Доставка и оплата</a>
+                    </li>
+                    <li class="burger__menu-li">
+                      <a href="#about" class="burger__menu-a">О компании</a>
+                    </li>
+                    <li class="burger__menu-li">
+                      <a href="#contact" class="burger__menu-a">Контакты</a>
+                    </li>
+                  </ul>
+                  <div class="burger__menu-btn">
+                    <a href="#question" class="btn">Заказать звонок</a>
+                  </div>
+
+                  <a href="#" class="burger__menu-politic"
+                    >Политика конфиденциальности © спец-транц 2024</a
+                  >
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="menu">
+          <div class="container">
+            <ul class="menu__list">
+              <li class="menu__item active">Песок</li>
+              <li class="menu__item">Щебень</li>
+              <li class="menu__item">Асфальтовая крошка</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="content">
+          <div class="container">
+            <div class="content__box activeBlock">
+              <picture>
+                <source media="(max-width: 600px)" type="image/png" srcset="images/sand-340w.png" />
+                <img src="images/sand-content.png" alt="Песок" />
+              </picture>
+              <div class="content__text">
+                <h2 class="title">Песок</h2>
+                <p class="content__text-p">
+                  Зернистость песка влияет на водопотребность раствора и его прочностные
+                  характеристики – чем больше модуль крупности, тем выше прочность бетона и меньше
+                  расход воды для его приготовления.Увеличение зернистости свидетельствует о большем
+                  среднем диаметре частиц песка. Это ведет к снижению пластичности цементного
+                  раствора. Поэтому зернистость песка должна подбираться в зависимости от назначения
+                  и условий, при которых будет эксплуатироваться бетон.
+                </p>
+
+                <div class="content__description">
+                  <div class="content__description-title">Песок карьерный 1.91</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">160 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Песок карьерный 1.40</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">160 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Песок карьерный 1.10</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">160 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Песок намывной</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">250 ₽</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content__box">
+              <picture>
+                <source
+                  media="(max-width: 725px)"
+                  type="image/png"
+                  srcset="images/stone-340w.png" />
+                <img src="images/stone-content.png" alt="Щебень" />
+              </picture>
+              <div class="content__text">
+                <h2 class="title">Щебень</h2>
+                <p class="content__text-p">
+                  Щебень размером 5-20 мм. Это самый востребованный в строительстве и производстве
+                  ЖБИ материал, его также применяют для строительства дорог и создания фундамента.
+                  Такой щебень незаменим и в частном строительстве при подготовке бетона. Щебень
+                  20-40 мм. Используется в дренажных работах, при строительстве трамвайных и
+                  железнодорожных путей, а также может применяться при обустройстве фундаментов
+                  зданий промышленного назначения. Щебень размером 40-70 мм может использовать для
+                  дренажа, добавляться в бетон и бетонные изделия;
+                </p>
+
+                <div class="content__description">
+                  <div class="content__description-title">Щебень гранитный фр. 5-20</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">800 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Щебень гранитный фр. 20-40</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">600 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Щебень гравийный фр. 5-20</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">500 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Гранитный отсев</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">1000 ₽</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content__box">
+              <picture>
+                <source
+                  media="(max-width: 725px)"
+                  type="image/png"
+                  srcset="images/asphalt-340.png" />
+                <img
+                  src="images/asphalt-content.png"
+                  class="material__box--asphalt"
+                  alt="Асфальтная крошка" />
+              </picture>
+              <div class="content__text">
+                <h2 class="title">Вторичные материалы</h2>
+
+                <div class="content__description">
+                  <div class="content__description-title">Асфальтная крошка</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">500 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Бой кирпича</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">200 ₽</span></div>
+                </div>
+                <div class="content__description">
+                  <div class="content__description-title">Бой бетона</div>
+                  <div class="decor"></div>
+                  <div class="content__description-price">От <span class="price">200 ₽</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="question" id="question">
+          <div class="container">
+            <div class="question__inner">
+              <div class="question__content">
+                <h2 class="question__content-title">Остались вопросы?</h2>
+                <p class="question_content-subtitle">
+                  Закажите обратный звонок и узнайте больше о наших услугах
+                </p>
+                <p class="question_content-desc">
+                  Оставьте заявку и наш менеджер перезвонит вам в течении 10 минут
+                </p>
+                <button class="btn question__btn-one">Заказать звонок</button>
+              </div>
+
+              <div class="question__form">
+                <form action="" class="form">
+                  <input type="text" class="form__input" placeholder="Имя" />
+                  <input type="number" class="form__input" placeholder="Телефон" />
+                  <textarea placeholder="Коментарий" class="form__textarea"></textarea>
+                  <a href="#" class="question__form-link">Соглашение о персональных данных</a>
+                  <button class="btn question__btn-two">Заказать звонок</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__logo">
+              <a class="footer__logo-link" href=""
+                ><img class="footer__logo-img" src="images/logo.svg" alt="logo"
+              /></a>
+            </div>
+            <div class="footer__politic">
+              <a href="" class="footer__politic-link"
+                >Политика конфиденциальности © спец-транс, 2023</a
+              >
+            </div>
+
+            <ul class="footer__center">
+              <li class="footer__center-li">
+                <a href="#" class="footer__center-link">Материалы</a>
+              </li>
+              <li class="footer__center-li">
+                <a href="#" class="footer__center-link">Услуги</a>
+              </li>
+            </ul>
+
+            <ul class="footer__right">
+              <li class="footer__right-li">
+                <a href=""><img src="images/vk.svg" alt="vk" /></a>
+              </li>
+              <li class="footer__right-li">
+                <a href=""><img src="images/facebook.svg" alt="facebook" /></a>
+              </li>
+              <li class="footer__right-li">
+                <a href=""><img src="images/whatsapp.svg" alt="whatsapp" /></a>
+              </li>
+            </ul>
+
+            <div class="footer__phone">
+              <span class="footer__right-span">+7 928 245 15 20</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
