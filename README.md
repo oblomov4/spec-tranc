@@ -21,18 +21,19 @@
 - Плавный скролл
 - Анимации элементов
 
-## Структура проекта
-spec-tranc/
-├── index.html
-├── services.html
-├── contacts.html
-├── css/
-│ ├── style.css
-│ └── normalize.css
-├── js/
-│ └── main.js
-├── images/
-└── favicon/
+## Скриншоты
+
+![Image](https://github.com/user-attachments/assets/2eaaae99-02b5-42ee-8ea0-9f85a85ba2b4)
+![Image](https://github.com/user-attachments/assets/fc3a7a27-cd78-47e3-9a6e-bb74b4a6b293)
+![Image](https://github.com/user-attachments/assets/18f777d3-3ba1-450a-9a8e-6a7c59024d9c)
+![Image](https://github.com/user-attachments/assets/c3b7cb8d-85db-45d6-93da-0573deb1db2e)
+![Image](https://github.com/user-attachments/assets/7b7446ad-5c6f-4096-97f2-9e7edd56f304)
+![Image](https://github.com/user-attachments/assets/a2184513-a0ee-4cb4-812a-390efe0703bc)
+![Image](https://github.com/user-attachments/assets/77dea397-94f8-459d-8f33-4addbb63e93c)
+
+## Особенности реализации
+- Кроссбраузерная верстка
+- Доступность (ARIA)
 
 ## Установка
 1. Клонировать репозиторий:
@@ -40,6 +41,4 @@ spec-tranc/
 git clone https://github.com/oblomov4/spec-tranc.git
 2. Открыть нужный HTML-файл в браузере
 
-##Особенности реализации
-- Кроссбраузерная верстка
-- Доступность (ARIA)
+
